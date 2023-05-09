@@ -1,105 +1,23 @@
 /* Set the background color of the body element to light gray */
 body {
-  background-color: #f2f2f2;
+  background-color: pink;
 }
 
 /* Set the font size and color of all paragraphs */
 p {
   font-size: 16px;
-  color: #444;
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
+  color: black;
 }
 
 /* Set the color of all links */
 a {
-  color: #3d85c6;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+  color: blue;
 }
 
 /* Set the background color of all buttons */
 button {
-  background-color: #3d85c6;
+  background-color: pastel;
   color: white;
   border: none;
   padding: 10px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-/* Style the header */
-header {
-  background-image: url('/static/depositphotos.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-}
-
-header::before {
-  content: "";
-  background-color: rgba(0,0,0,0.4);
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-.logo-container img {
-  width: 300px;
-}
-header h1 {
-  color: white;
-  font-size: 48px;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px #000000;
-  margin-bottom: 16px;
-}
-
-header p {
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 24px;
-}
-
-/* Style the main content */
-main {
-  padding: 40px;
-  margin: 0 auto;
-  max-width: 800px;
-}
-
-main h2 {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 16px;
-}
-
-main ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-main li {
-  margin-bottom: 16px;
-}
-
-/* Style the footer */
-footer {
-  background-color: #333;
-  color: white;
-  padding: 16px;
-  text-align: center;
-  font-size: 14px;
 }
