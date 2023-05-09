@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<title>Smarter Hotline</title>
+		<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+	<header>
+		<div class="logo-container">
+			<img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+			<h1>Smarter Hotline</h1>
+		</div>
+	</header>
+	<main>
+		<div class="hero-image">
+			<h2>What can we help you with?</h2>
+			<form action="/" method="POST">
+				<input type="text" name="question" placeholder="Enter your question here...">
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>&copy; 2023 Smarter Hotline. All rights reserved.</p>
+	</footer>
+</body>
+</html>
